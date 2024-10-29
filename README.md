@@ -3,7 +3,7 @@
 
 <br>
 
-<h3 align="center">Programming Language and IDE</h3>
+<h4 align="center">Programming Language and IDE</h4>
 <p align="center"> 
   <a href="https://www.python.org/" target="_blank" rel="noreferrer">
     <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg"
