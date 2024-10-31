@@ -10,11 +10,11 @@ x = iris.data
 y = iris.target
 
 # MEMBAGI DATASET MENJADI DATA LATIH DAN DATA UJI
-x_train, x_test, y_train, y_test = train_test_split(x, y, test_size=0.2)
+x_train, x_test, y_train, y_test = train_test_split(x, y, test_size = 0.2)
 
 # INISIALISASI MODEL KNN
 k = 10
-knn = KNeighborsClassifier(n_neighbors=k)
+knn = KNeighborsClassifier(n_neighbors = k)
 knn.fit(x_train, y_train)
 
 # PREDIKSI MODEL
